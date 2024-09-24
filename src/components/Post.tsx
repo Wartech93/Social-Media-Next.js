@@ -14,8 +14,14 @@ const Post = () => {
                         className="w-10 h-10 rounded-full "
                     />
                     <span className="font-medium">John Smith</span>
+                    <Image 
+                    src="/more.png" 
+                    width={16} 
+                    height={16} 
+                    alt="" 
+                    />
                 </div>
-                <Image src="/more.png" width={16} height={16} alt="" />
+               
             </div>
             {/* DESCRIPTION */}
             <div className='flex flex-col gap-4'>

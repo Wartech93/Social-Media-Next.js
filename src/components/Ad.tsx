@@ -34,7 +34,7 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
                         alt=''
                         width={24}
                         height={24}
-                        className='rounded-full w-6 h-6 object-cover'
+                        className='rounded-lg w-6 h-6 object-cover'
                     />
                     <span className='text-blue-500 font-medium'>BigChef Lounge</span>
                 </div>
